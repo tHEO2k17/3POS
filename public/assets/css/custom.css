@@ -1,0 +1,47 @@
+.input-lg {
+    font-size: 55px;
+    height: 90px;
+}
+.ver-alny{
+    vertical-align: middle;
+}
+.my{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.table tr:first-child td {
+    border-top: unset !important;
+}
+.table tbody tr > td{
+    width: 20%;
+}
+.padr-sm{
+    padding-right: 5px;
+}
+
+.item-list{
+    height: 48vh;
+    overflow: auto;
+}
+#demo-set-btn {
+    display: none;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #ddd; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #1e3a57; 
+}
